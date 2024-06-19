@@ -1,0 +1,31 @@
+{
+  "timeZone": "Europe/London",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Drive",
+        "serviceId": "drive",
+        "version": "v3"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "bmApiCentral",
+        "libraryId": "1L4pGblikbjQLQp8nQCdmCfyCxmF3MIShzsK8yy_mJ9_2YMdanXQA75vI",
+        "version": "9"
+      },
+      {
+        "userSymbol": "bmPDF",
+        "libraryId": "1Aq5ReP4_Ghk4zLKnJvtyPO717UlBqT0YqyCnpoWonxrIiI6xMa8g0sf2",
+        "version": "3",
+        "developmentMode": false
+      }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/drive"
+  ]
+}
