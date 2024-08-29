@@ -339,7 +339,8 @@ const Utils = (() => {
     isString,
     isArray,
     isFunction,
-    elapsedSecs: (start, finish) => Math.round((new Date().getTime(finish) - new Date(start).getTime()) / 1000)
+    elapsedSecs: (start, finish) => Math.round((new Date().getTime(finish) - new Date(start).getTime()) / 1000),
+    cacheToBlob
   }
 })()
 
